@@ -2,8 +2,7 @@
 
 import React, { useState } from 'react'
 import { GithubGraph } from './ui/GithubGraph'
-import { GithubIcon, Heading } from 'lucide-react'
-import Link from 'next/link'
+import { GithubIcon } from 'lucide-react'
 import Title from './Title'
 
 const GithubSection = () => {
