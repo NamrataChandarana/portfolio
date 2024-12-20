@@ -1,5 +1,6 @@
 import { Badge } from '@/components/ui/badge'
 import React from 'react'
+import Title from './Title';
 
 const Skills = () => {
 
@@ -19,8 +20,8 @@ const Skills = () => {
 
   return (
     <section className="mb-12">
-      <h3 className="font-bold text-[1.35rem] text-[#f7f5f5] mb-2">Skills</h3>
-      <div className="flex flex-wrap gap-2">
+      <Title title='Skills'/>
+      <div className="flex flex-wrap gap-2 mt-8">
         {skills.map((skill) => (
          <Badge key={skill} variant="secondary" className='bg-[#27272A] hover:bg-[#27272A] text-white py-2 px-3'>{skill}</Badge>
         ))}

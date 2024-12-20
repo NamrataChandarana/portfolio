@@ -5,6 +5,7 @@ import { Github, LinkIcon } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import Title from './Title'
 
 export default function RecentProject() {
 
@@ -24,9 +25,9 @@ export default function RecentProject() {
     ]
       
   return (
-    <section className="mb-12">
-    <h2 className="text-xl font-semibold mb-6">Recent Projects</h2>
-    <div className="grid md:grid-cols-2 gap-4 ">
+    <section className="mb-16 mt-10">
+    <Title title="Recent Projects"/>
+    <div className="grid md:grid-cols-2 gap-4 mt-8 ">
       {projects.map((project) => (
         <Card key={project.title} className="bg-[#09090B] border-2 border-[#27272A] p-4 ">
           <div className="">
