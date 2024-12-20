@@ -1,6 +1,7 @@
 
 import HeroSection from "./components/HeroSection";
 import RecentProject from "./components/RecentProject";
+import Skills from "./components/Skills";
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
        <main className="container mx-auto px-6 py-12 max-w-4xl">
           <HeroSection/>
           <RecentProject/>
+          <Skills/>
        </main>
     </div>
   );
