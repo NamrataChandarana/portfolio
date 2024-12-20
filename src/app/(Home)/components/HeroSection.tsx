@@ -5,6 +5,14 @@ import Link from "next/link"
 import React from 'react'
 
 const HeroSection = () => {
+
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="mb-12">
       <div className="text-zinc-400 mb-2">Hi there! This is</div>
@@ -25,12 +33,14 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="flex gap-3">
-      <Button asChild>
-        <Link href="#project">Project</Link>
-      </Button>
-      <Button asChild>
-        <Link href="#contact">Contact</Link>
-      </Button>
+        <Button asChild
+        onClick={() => scrollToSection("projects")}>
+          <Link href="#projects">Project</Link>
+        </Button>
+        <Button asChild
+        onClick={() => scrollToSection("contact")}>
+          <Link href="#contact">Contact</Link>
+        </Button>
       </div>
     </section>
   )

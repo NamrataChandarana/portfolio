@@ -4,8 +4,6 @@ import ProductsCarousel from './ProductsCarousel'
 
 export default function RecentProject() {
 
-    
-      
   return (
     <section className="mb-16 mt-10">
     <Title title="Recent Projects"/>

@@ -1,21 +1,21 @@
 "use client"
 
-import React, { useState } from 'react'
+import React from 'react'
 import { GithubGraph } from './ui/GithubGraph'
 import { GithubIcon } from 'lucide-react'
 import Title from './Title'
+import { GitHub } from '@/app/constant'
 
 const GithubSection = () => {
-    const [theme, setTheme] = useState("dark");
   return (
     <section className="flex flex-col gap-8 justify-center my-16">
-        <Title title="Github Contributions" icon={GithubIcon} link='https://github.com/NamrataChandarana' />
+        <Title title="Github Contributions" icon={GithubIcon} link={GitHub} />
         <div className="flex items-center px-6 justify-center">
           <GithubGraph
             username="NamrataChandarana"
             blockMargin={3}
             colorPallete={[
-              theme === "dark" ? "#202020" : "#f4f4f4",
+              "#202020",
               "#216E39",
               "#40c463",
               "#30a14e",
@@ -23,8 +23,7 @@ const GithubSection = () => {
             ]}
           />
         </div>
-      </section>
-
+    </section>
   )
 }
 

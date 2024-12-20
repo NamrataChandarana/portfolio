@@ -1,23 +1,10 @@
 import { Badge } from '@/components/ui/badge'
 import React from 'react'
 import Title from './Title';
+import { skills } from '@/app/data';
 
 const Skills = () => {
-
-  const skills = [
-      "React.js",
-      "Redux",
-      "TypeScript",
-      "JavaScript",
-      "TailwindCSS",
-      "MongoDB",
-      "Node.js",
-      "Express.js",
-      "PostgreSQL",
-      "Prisma",
-      "Git/GitHub",
-  ];
-
+  
   return (
     <section className="mb-12">
       <Title title='Skills'/>
