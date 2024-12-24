@@ -41,7 +41,7 @@ export const projects = [
       description: "Developed a responsive food ordering platform featuring a config-driven UI, real-time data integration from Swiggy's API.",
       tags: ["Html", "TaiwindCss", "React", "Redux", "parcel", "babel"],
       img:"/foodplaza.png",
-      live: "https://foodplaza-blue.vercel.app/",
+      live: "https://foodplaza.namratachandarana.in/",
       github: "https://github.com/NamrataChandarana/foodplaza"
     },
     {
@@ -49,7 +49,7 @@ export const projects = [
       description: "A blog posting app that enabling users to create and view blogs. The main features lines in the deployment as it is deployed serverless.",
       tags: ["React", "Redux", "TaiwindCss", "Hono", "clodfalre", "Workers", "Postgress" , "prisma"],
       img:"/Devtales.png",
-      live: "",
-      github: "" 
+      live: "https://devtales.namratachandarana.in/",
+      github: "https://github.com/NamrataChandarana/DevTales" 
     },
 ]
