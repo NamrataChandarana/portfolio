@@ -2,7 +2,6 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import RecentProject from "./components/RecentProject";
 import Skills from "./components/Skills";
-import GithubSection from "./components/GithubSection";
 import Educaton from "./components/Educaton";
 
 
