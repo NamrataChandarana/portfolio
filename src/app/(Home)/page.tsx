@@ -11,7 +11,7 @@ export default function Home() {
     <div className="min-h-screen bg-black text-white">
        <main className="container mx-auto px-6 py-12 max-w-4xl">
           <HeroSection/>
-          <GithubSection/>
+          {/* <GithubSection/> */}
           <RecentProject/>
           <Educaton/>
           <Skills/>
